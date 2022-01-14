@@ -1,0 +1,24 @@
+#main_container{
+    position: relative;
+    border: 2px solid ;
+    width: 500px;
+    height:650px;
+    left: 100px;
+    padding: 30px;
+    overflow: hidden;
+}
+#inner{
+    border:2px solid;
+    width: 480px;
+    height: 630px;
+}
+#heading{
+    position: sticky;
+    top: 0px;
+    text-align: center;
+}
+#contents {
+    padding: 2px;
+    text-align:auto;
+    overflow: hidden;
+}
