@@ -1,0 +1,40 @@
+#container{
+    width: 80%;
+    height: 80%;
+    background-color:green;
+    margin: 10%;
+}
+.triangle1 {
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 200px;
+    z-index: 3;
+}
+.triangle2 {
+    position: relative;
+    left: 200px;
+    top: -100px;
+    left: 200px%;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    
+}
+.triangle3 {
+    position: relative;
+    top: -200px;
+    left: 200px;
+    left: 200px%;
+    clip-path: polygon(50% 0, 100% 100%, 0 100%);
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    
+}
