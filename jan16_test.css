@@ -1,0 +1,31 @@
+#board{
+    width: 500px;
+    height: 500px;
+    background-color:#fc03d3;
+    position: relative;
+    top: 10%;
+    left: 25%;
+    border-radius: 20px;
+}
+.box{
+    margin: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 85px;
+    color: rgb(21, 255, 0);
+    width: 100px;
+    height: 100px;
+    background-color:#fc034e;
+    display: inline-block;
+}
+#tab {
+position: absolute;
+top: 12%;
+left:12%}
+
+#board h2{
+padding: 20px;
+font-size: 40px;
+color: rgb(7, 247, 7);
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
