@@ -8,3 +8,4 @@ for (var i = 0; i < matrixOne.length; i++) {
     sum=sum+matrixOne[i][i];
 }
 console.log(sum);
+write(sum);
