@@ -78,7 +78,7 @@ function clearAll() {
 }
 
 function equals() {
-    if(operator == "+") {
+    if(operator == '+') {
         number1 = sum(number1, number2);
         number2 = "";
         operator = "";
