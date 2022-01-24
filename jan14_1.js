@@ -103,5 +103,5 @@ function equals() {
             operator="";
             display(number1);
         
-    }
+    } 
 }
